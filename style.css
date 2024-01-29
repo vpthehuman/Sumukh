@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ffd700; /* Banana yellow! */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px; /* Added for a bit of styling */
+}
+
+#game {
+    position: relative;
+    height: 300px; /* Increased height for more play area */
+    border: 2px dashed #ffd700; /* Adding a dashed border for a "jungle" feel */
+    border-radius: 10px; /* Matching border radius with section */
+    padding: 10px;
+}
+
+#bananaButton {
+    position: absolute;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #ffd700; /* Banana yellow */
+    border: none; /* Removing default border */
+    cursor: pointer; /* Change cursor to pointer to indicate clickability */
+    border-radius: 5px; /* Soften edges */
+    transition: transform 0.1s; /* Smooth transition for a "jump" effect */
+}
+
+#bananaButton:hover {
+    transform: scale(1.1); /* Slightly increase size on hover for a "jump" effect */
+}
